@@ -15,9 +15,9 @@ function Add() {
         createI.classList.add("fa-x");
         createEle.append(createSpan);
         createEle.append(createI);
-        ul.append(createEle)
+        ul.append(createEle);
         createEle.onclick = function () {
-            createSpan.style.textDecoration="line-through"
+            createSpan.classList.toggle("span-toggle");
         }
         input.value=""
         createI.onclick = function () {
