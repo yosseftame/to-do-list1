@@ -77,6 +77,9 @@ ul li i:hover{
     background-color: rgb(255, 100, 61);
     transition: ease 0.5s ;
 }
+.span-toggle{
+    text-decoration: line-through;
+}
 @media only screen and (max-width: 600px) {
     .cont{
         width: 100%;
